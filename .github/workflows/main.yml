@@ -28,7 +28,6 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{secrets.APP_NAME}} #Must be unique in Heroku
           heroku_email: ${{secrets.EMAIL}}
-          heroku_region: ${{secrets.REGION}}
           usedocker: true
           # docker_build_args: |
           #   HD_UUID
